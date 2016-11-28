@@ -1,0 +1,71 @@
+@import "partials/colors";
+@import "partials/buttons";
+@import "partials/mixins";
+
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: $primary-color;
+  margin: 0px;
+  padding: 20px;
+  ul {
+    text-align: center;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 100;
+    li {
+      display: inline;
+      padding: 30px;
+      a {
+        text-decoration: none;
+       color: $text-color;
+       position: relative;
+       bottom: 40px;
+       font-size: 13px;
+       text-transform: uppercase;
+      }
+      a:hover {
+      color: $secondary;
+      border-bottom: 1px solid $text-color;
+      padding-bottom: 15px;
+      }
+    }
+  }
+}
+
+.hero{
+  background: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=0404a6987743c9f447f3abde5e2a34d8");
+  background-size: cover;
+  height: 500px;
+ .hero-text {
+    @include vertical-center;
+    h1{
+      font-size: 60px;
+      }
+      h3 {
+        font-size: 20px;
+        }
+        button:hover {
+          background-color: $secondary;
+          border: 1px solid $secondary;
+    }
+  }
+}
+
+.banner {
+  height: 200px;
+  background-color: $secondary;
+  .banner-text {
+    margin: 0 15%;
+    @include vertical-center;
+    h3 {
+      font-size: 25px;
+    }
+    button:hover {
+    background-color: $text-color;
+    border: 1px solid $text-color;
+    }
+  }
+}

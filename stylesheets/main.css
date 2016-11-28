@@ -1,0 +1,79 @@
+button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 20px; }
+
+h1, h2, h3, h4, p {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  font-weight: normal;
+  color: #3c4242; }
+
+body {
+  margin: 0px; }
+
+header {
+  background-color: #94b4b3;
+  margin: 0px;
+  padding: 20px; }
+  header ul {
+    text-align: center;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 100; }
+    header ul li {
+      display: inline;
+      padding: 30px; }
+      header ul li a {
+        text-decoration: none;
+        color: #3c4242;
+        position: relative;
+        bottom: 40px;
+        font-size: 13px;
+        text-transform: uppercase; }
+      header ul li a:hover {
+        color: #d3795f;
+        border-bottom: 1px solid #3c4242;
+        padding-bottom: 15px; }
+
+.hero {
+  background: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=0404a6987743c9f447f3abde5e2a34d8");
+  background-size: cover;
+  height: 500px; }
+  .hero .hero-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    text-align: center; }
+    .hero .hero-text h1 {
+      font-size: 60px; }
+    .hero .hero-text h3 {
+      font-size: 20px; }
+    .hero .hero-text button:hover {
+      background-color: #d3795f;
+      border: 1px solid #d3795f; }
+
+.banner {
+  height: 200px;
+  background-color: #d3795f; }
+  .banner .banner-text {
+    margin: 0 15%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    text-align: center; }
+    .banner .banner-text h3 {
+      font-size: 25px; }
+    .banner .banner-text button:hover {
+      background-color: #3c4242;
+      border: 1px solid #3c4242; }
+
+/*# sourceMappingURL=main.css.map */

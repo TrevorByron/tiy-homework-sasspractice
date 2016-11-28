@@ -1,0 +1,19 @@
+@mixin main-text {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  font-weight: normal;
+  color: $text-color;
+
+}
+h1, h2, h3, h4, p{
+  @include main-text;
+}
+
+@mixin vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  text-align: center;
+}
